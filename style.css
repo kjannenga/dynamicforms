@@ -1,0 +1,42 @@
+html{box-sizing: border-box;}
+*, *:beofre, *:after {box-sizing: inherit;}
+
+
+
+#app{
+	width:540px;
+	margin:auto;
+	border:1px solid #ccc;
+	padding:20px;
+}
+
+.field{
+	margin:30px auto;
+	width:500px;
+	height:40px;
+	border:1px solid #ccc;
+	line-height: 38px;
+
+}
+
+i{
+	width:50px;
+	display: inline-block;
+	text-align:center;
+
+}
+
+input {
+	width:450px;
+	border:0;
+	height:38px;
+	outline: 0;
+
+}
+
+select{
+	width:500px;
+	height:40px;
+	border:1px solid #ccc;
+}
+
