@@ -1,42 +1,59 @@
-html{box-sizing: border-box;}
-*, *:beofre, *:after {box-sizing: inherit;}
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
 
-
-
-#app{
+#app {
 	width:540px;
 	margin:auto;
-	border:1px solid #ccc;
+	border: 1px solid #ccc;
 	padding:20px;
+
 }
 
-.field{
-	margin:30px auto;
-	width:500px;
-	height:40px;
+.field, .textarea {
+	margin: 30px auto;
+	width: 500px;
 	border:1px solid #ccc;
 	line-height: 38px;
+	outline:0;
+}
+.field{
+	height:40px;
+	line-height:38px;
 
+}
+.textarea{
+	height:100px;
+	display:flex;
+}
+.textarea i{
+	margin-top:15px;
+}
+textarea{
+	height:96px;
+	width:450px;
+	border:0;
 }
 
 i{
-	width:50px;
-	display: inline-block;
-	text-align:center;
-
+	display:inline-block;
+	width:40px;
+	text-align: center;
 }
 
-input {
+input{
 	width:450px;
 	border:0;
 	height:38px;
 	outline: 0;
-
 }
 
+.focused{
+	border:0;
+}
 select{
-	width:500px;
+	width: 500px;
 	height:40px;
 	border:1px solid #ccc;
+	border-radius: 0;
 }
 
