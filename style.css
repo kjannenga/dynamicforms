@@ -2,11 +2,16 @@ html {box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit;}
 
 #app {
-	width:540px;
+	width:570px;
 	margin:auto;
-	border: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
 	padding:20px;
+	
 
+}
+body{
+	width:571px;
+	border:1px solid #ccc;
 }
 
 .field, .textarea {
@@ -31,7 +36,9 @@ html {box-sizing: border-box;}
 textarea{
 	height:96px;
 	width:450px;
-	border:0;
+	border:1px solid #ccc;
+	margin-left:40px;
+	margin-top:10px;
 }
 
 i{
@@ -51,9 +58,28 @@ input{
 	border:0;
 }
 select{
-	width: 500px;
+	width: 450px;
 	height:40px;
 	border:1px solid #ccc;
 	border-radius: 0;
+	margin-left:40px;
 }
+header{
+	width:570px;
+	height:100px;
+	background-color:lightblue;
+	color:black;
+	font-size: 30px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
 
+}
+footer{
+	width:570px;
+	height:75px;
+	background-color: lightblue;
+}
+button{
+	background-color:white;
+	margin:20px;
+}
